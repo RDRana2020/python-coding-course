@@ -1,0 +1,19 @@
+title: 'Python Coding '
+description: >-
+  I want to learn Programming As I am New In Programming The way to become
+  python Student That I could gain  Knowledge and Become a bit Expert of this
+  language
+template:
+  repo: python-coding-template
+  name: python-coding
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
